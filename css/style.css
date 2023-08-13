@@ -1,0 +1,230 @@
+.encabezado { 
+    background-color: yellow;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.lista { 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    background-color: red;
+    padding: 30px;
+    list-style-type: none;
+}
+
+
+.footer { 
+    background-color: yellow;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.listapie {
+    display: grid;
+    grid-template-columns: 1fr1;
+    background-color: red;
+    padding: 20px;
+    list-style-type: none;
+}
+    
+
+.clase-nacional {
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.clase-internacional { 
+    background-color: blue;
+    display: grid;
+    grid-row: 1fr;
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;     
+}
+
+.clase-equipos {
+    background-color: violet;
+    display: grid;
+    grid-row: 1fr;
+    padding: 20px;
+    justify-content: center;    
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+
+.tabla-horarios { 
+    content: center;
+}
+
+.dias { 
+    text-align: center;
+    font-size: 120%;
+    color: hotpink;
+}
+
+.dias-de-la-semana , .lunes { 
+    color: red;
+    font-size: 120%;    
+}
+
+.dias-de-la-semana , .martes { 
+    color: blue;
+    font-size: 120%;
+}
+
+.dias-de-la-semana , .miercoles { 
+    color: green;
+    font-size: 120%;
+}
+
+.dias-de-la-semana , .jueves { 
+    color: yellow;
+    font-size: 120%;
+}
+
+.dias-de-la-semana , .viernes { 
+    color: grey;
+    font-size: 120%;
+}
+
+.horarios-de-la-semana , .horario-lunes { 
+    color: red;
+    font-size: 90%;
+}
+
+.horarios-de-la-semana , .horario-martes { 
+    color: blue;
+    font-size: 90%;
+}
+
+.horarios-de-la-semana , .horario-miercoles { 
+    color: green;
+    font-size: 90%;
+}
+
+.horarios-de-la-semana , .horario-jueves { 
+    color: yellow;
+    font-size: 90%;
+}
+
+.horarios-de-la-semana , .horario-viernes { 
+    color: grey;
+    font-size: 90%;
+}
+
+.formulario { 
+    border-style: dashed;
+    background-color: yellow;
+    font-size: 100%;   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.navegador { 
+    display: flex ;
+    flex-wrap: wrap-reverse;
+    width: 10px;
+}
+/*  
+@media (min-width: 768px) {
+    .lista {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     }
+     .listapie { 
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+}
+
+@media (min-width: 1024px) {
+    .lista {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     }
+     .listapie { 
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+     .clase-nacional { 
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+}
+ */ 
+
+.cajas {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.caja1 { 
+    background-color: blue;
+    padding: 10px;
+}
+
+.caja2 { 
+    background-color: yellow;
+    padding: 10px;
+}
+
+.caja3 { 
+    background-color: green;
+    padding: 10px;
+}
+
+.caja4 { 
+    background-color: red;
+    padding: 10px;
+}
+
+.caja5 { 
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.caja6 { 
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.caja7 { 
+    background-color: violet;
+}
+
+.caja8 { 
+    background-color: grey;
+    padding: 10px;
+}
+
+.caja9 { 
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+@media (min-width: 320px) {
+    .cajas {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 769px) {
+    .cajas {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
